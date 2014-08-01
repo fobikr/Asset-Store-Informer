@@ -1,0 +1,91 @@
+.install-window {
+    height: 500px;
+    margin-top: 30px;
+    padding: 10px;
+    position: relative;
+    width: 800px;
+}
+
+.nextButton {
+    left: 700px;
+    position: absolute;
+    top: 460px;
+    z-index: 1;
+}
+
+.nextButton:active{
+    top: 461px;
+    position: absolute;
+}
+
+.nextButton.disabled 
+{
+    background: -moz-linear-gradient(center top , #DDDDDD 5%, #CCCCCC 100%) repeat scroll 0 0 #CCCCCC;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 0 0 #DDDDDD inset;
+    text-shadow: 1px 1px 0 #AAAAAA;
+}
+
+.install-textfield-block-2 {
+    width: 330px;
+}
+
+input[type=radio].css-checkbox {
+    display:none;
+}
+
+input[type=radio].css-checkbox + label.css-label {
+    padding-left:27px;
+    height:22px; 
+    display:inline-block;
+    line-height:22px;
+    background-repeat:no-repeat;
+    background-position: 0 0;
+    font-size:18px;
+    vertical-align:middle;
+    cursor:pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+input[type=radio].css-checkbox:checked + label.css-label {
+    background-position: 0 -22px;
+}
+
+.ui-progressbar {
+    position: relative;
+}
+
+.progress-label {
+    position: absolute;
+    left: 50%;
+    top: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+.redText {
+    color: red;
+}
+
+.greenText {
+    color: green;
+}
+
+#progress-msg {
+    margin-top: 10px;
+}
+
+#finish-cron {
+    margin-bottom: 20px;
+}
+
+#finish-step {
+    border: 1px dashed;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+#finish-thanks {
+    margin-top: 30px;
+}

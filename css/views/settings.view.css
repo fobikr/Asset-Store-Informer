@@ -1,0 +1,11 @@
+#settings-wrapper {
+    display: block;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 320px;
+}
+
+#settings-wrapper .button {
+    margin-bottom: 10px;
+    width: 320px;
+}

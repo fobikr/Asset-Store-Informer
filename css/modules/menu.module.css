@@ -1,0 +1,60 @@
+.menu {
+    background-color: #9DCE2C;
+    height: 48px;
+    width: 100%;
+}
+
+.menu > div {
+    display: inline-block;
+}
+
+.menu-items {
+    background-color: #709221;
+    height: 32px;
+}
+
+.menu-items ul {
+    margin: 0;
+}
+
+.menu-items li {
+    display: inline-block;
+    list-style: none outside none;
+    padding-top: 5px;
+}
+
+.menu-items a {
+    border-radius: 10px 10px 10px 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1;
+    padding: 8px 18px 7px;
+    text-decoration: none;
+}
+
+.menu-items a.selected {
+    background: url("data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABgAAAAKCAYAAACuaZ5oAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAH1JREFUeNpi/P//PwORgBmIJ0DZBUD8lyhdIAuIwEJAvP0/AmyHihHUS4zhKkB8+z8muA2Vo8gCeyB++x83eAtVQ5YFOUD88z9h8AeqlmgLmIF48n/SwWSoXrwWoEcmqQAj8omJTFIBSuQTG5mkAnjkwyLzz3/qA3DkAwQYABEvANn67PzPAAAAAElFTkSuQmCC") no-repeat scroll center 22px transparent;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.menu-logo {
+    color: white;
+    cursor: pointer;
+    font-family: Garamond, serif;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1em;
+    margin-left: 20px;
+}
+
+.menu-logo > a > div {
+    color: WhiteSmoke;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu-toolbar {
+    float: right;
+}

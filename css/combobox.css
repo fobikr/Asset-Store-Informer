@@ -1,0 +1,103 @@
+.combobox {
+    position: relative;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 7px;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 1px 1px rgba(50,50,50,0.1);
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    color: #999999;
+}
+
+.combobox:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: #E5E5E5 transparent;
+}
+
+.combobox .dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 0px;
+    background: white;
+    border-radius: inherit;
+    border: 1px solid rgba(0,0,0,0.17);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    font-weight: normal;
+    transition: all 0.2s ease-in;
+    list-style: none;
+    opacity: 0;
+    pointer-events: none;
+}
+ 
+.combobox .dropdown li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #999999;
+    border-bottom: 1px solid #E5E5E5;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,1);
+    transition: all 0.3s ease-out;
+}
+ 
+.combobox .dropdown li i {
+    float: right;
+    color: inherit;
+}
+ 
+.combobox .dropdown li:first-of-type a {
+    border-radius: 7px 7px 0 0;
+}
+ 
+.combobox .dropdown li:last-of-type a {
+    border-radius: 0 0 7px 7px;
+    border: none;
+}
+ 
+.combobox .dropdown li:hover a {
+    background: #F2F2F2;
+}
+
+.combobox .dropdown:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 15px;
+    border-width: 0 6px 6px 6px;
+    border-style: solid;
+    border-color: #fff transparent;   
+}
+ 
+.combobox .dropdown:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 13px;
+    border-width: 0 8px 8px 8px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.1) transparent;   
+}
+
+.combobox.active .dropdown {
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 1;
+}

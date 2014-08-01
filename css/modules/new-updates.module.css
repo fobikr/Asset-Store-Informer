@@ -1,0 +1,16 @@
+.update-version {
+    font-weight: bold;
+    text-align: center;
+}
+
+.update-date {
+    text-align: center;
+}
+
+.update-item {
+    margin-bottom: 20px;
+}
+
+.update-item:last-child {
+    margin-bottom: 0;
+}

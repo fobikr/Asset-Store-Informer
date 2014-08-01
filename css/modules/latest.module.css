@@ -1,0 +1,87 @@
+.latest {
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+
+.latest > div {
+    display: table-row;
+}
+
+.latest-header {
+    background-color: #F2F2F2;
+}
+
+.latest-header > div {
+    display: table-cell;
+}
+
+.latest-row:hover{
+    background-color: #ddf2ad !important;
+}
+
+.latest-row > div {
+    display: table-cell;
+}
+
+.latest-type {
+    width: 80px;
+}
+
+.latest-date {
+    width: 170px;
+}
+
+.latest-asset {
+    width: 200px;
+}
+
+.latest-asset a {
+    cursor: pointer;
+}
+
+.latest-asset a:hover {
+    border-bottom: 1px #687b99 dashed;
+}
+
+.latest-info{
+    text-align: left;
+    font-size: 12px;
+}
+
+.latest-info > div {
+    display: block;
+}
+
+.latest-row-rating, .latest-row-review {
+    background-color: AliceBlue;
+}
+
+.latest-row-refunding, .latest-row-charge {
+    background-color: LavenderBlush;
+}
+
+.latest-row.even {
+    background-color: WhiteSmoke;
+}
+
+.latest-row-rating.even, .latest-row-review.even {
+    background-color: #e6f3ff;
+}
+
+.latest-row-refunding.even, .latest-row-charge.even {
+    background-color: #fde7ee;
+}
+
+.review-reply {
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.review-reply-title {
+    font-weight: bold;
+}
+
+.review-reply-body {
+    padding-top: 10px;
+}

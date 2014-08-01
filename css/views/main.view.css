@@ -1,0 +1,21 @@
+#view-footer {
+    background-color: #709221;
+    border-top: 3px solid #9DCE2C;
+    color: #FFFFFF;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#view-footer a {
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+#view-footer a:hover {
+    border-bottom: 1px white dashed;
+}
+
+#view-post-footer {
+    background-color: #496012;
+    height: 10px;
+}

@@ -1,0 +1,57 @@
+.all-assets {
+    width: 100%;
+}
+
+.all-assets > div {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.asset {
+    display: table;
+    padding-left: 40px;
+}
+
+.asset > div {
+    display: table-cell;
+}
+
+.asset-image{
+    width: 220px;
+}
+
+.asset-info {
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: top;
+    width: 100%;
+}
+
+.asset-info h3{
+    margin: 0;
+}
+
+.asset-title a {
+    color: #666666;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.asset-title a:hover {
+    color: #687B99;
+}
+
+.asset-description {
+    margin-top: 20px;
+}
+
+.asset-description a, .asset-category a {
+    color: #687B99;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.asset-title a:hover, .asset-description a:hover, .asset-category a:hover, .asset-rating a:hover, .asset-reviews a:hover {
+    border-bottom: 1px #687b99 dashed;
+}

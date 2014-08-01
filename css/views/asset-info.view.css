@@ -1,0 +1,14 @@
+.asset-details {
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: top;
+    width: 100%;
+}
+
+.asset-type{
+    border-bottom: 1px solid #DFDFDF;
+}
+
+.asset-details a:hover {
+    border-bottom: 1px #687b99 dashed;
+}
