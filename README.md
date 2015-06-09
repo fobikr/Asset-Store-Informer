@@ -11,4 +11,4 @@ Features:
 * Displays all events in a convenient way, to the nearest second.
 * Quickly check sale by Invoice Number.
 
-http://infinity-code.com/products/asset-store-informer
+<a href="http://infinity-code.com/en/products/">More interesting assets.</a>
